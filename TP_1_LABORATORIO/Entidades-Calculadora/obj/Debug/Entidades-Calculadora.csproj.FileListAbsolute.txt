@@ -1,0 +1,5 @@
+C:\Users\PC\Desktop\TP_1_LABORATORIO\Entidades-Calculadora\obj\Debug\Entidades-Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\TP_1_LABORATORIO\Entidades-Calculadora\bin\Debug\Entidades-Calculadora.dll
+C:\Users\PC\Desktop\TP_1_LABORATORIO\Entidades-Calculadora\bin\Debug\Entidades-Calculadora.pdb
+C:\Users\PC\Desktop\TP_1_LABORATORIO\Entidades-Calculadora\obj\Debug\Entidades-Calculadora.dll
+C:\Users\PC\Desktop\TP_1_LABORATORIO\Entidades-Calculadora\obj\Debug\Entidades-Calculadora.pdb

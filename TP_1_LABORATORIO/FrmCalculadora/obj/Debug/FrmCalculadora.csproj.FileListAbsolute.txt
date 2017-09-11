@@ -1,0 +1,11 @@
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\bin\Debug\FrmCalculadora.exe.config
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\bin\Debug\FrmCalculadora.exe
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\bin\Debug\FrmCalculadora.pdb
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\obj\Debug\FrmCalculadora.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\obj\Debug\FrmCalculadora.Form1.resources
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\obj\Debug\FrmCalculadora.Properties.Resources.resources
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\obj\Debug\FrmCalculadora.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\obj\Debug\FrmCalculadora.exe
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\obj\Debug\FrmCalculadora.pdb
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\bin\Debug\Entidades-Calculadora.dll
+C:\Users\PC\Desktop\TP_1_LABORATORIO\FrmCalculadora\bin\Debug\Entidades-Calculadora.pdb
