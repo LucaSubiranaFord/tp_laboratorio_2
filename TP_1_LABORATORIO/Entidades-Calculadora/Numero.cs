@@ -27,6 +27,13 @@ namespace Entidades_Calculadora
         }
         #endregion
 
+
+        #region Metodos
+        /// <summary>
+        /// Valida el numero ingresado por el usuario
+        /// </summary>
+        /// <param name="numeroString">String</param>
+        /// <returns>retorna el numero en tipo doble si se logra el parse, y 0 si es invalido el numero ingresado</returns>
         private static double validarNumero(String numeroString)
         {
             double numeroDouble = 0;
@@ -40,9 +47,17 @@ namespace Entidades_Calculadora
             }
         }
 
+
+
+        /// <summary>
+        /// metodo para establecer el atributo "numero"
+        /// </summary>
+        /// <param name="numeroString">String</param>
         private void setNumero(String numeroString)
         {
             this.numero = validarNumero(numeroString);
         }
+
+        #endregion
     }
 }
