@@ -58,21 +58,24 @@ namespace Entidades_2017
             sb.AppendLine("");
             foreach (Producto v in c._productos)
             {
-                switch (tipo)
-                {
-                    case ETipo.Snacks:
-                        sb.AppendLine(((Snacks)v).Mostrar());
-                        break;
-                    case ETipo.Dulce:
-                        sb.AppendLine(((Dulce)v).Mostrar());
-                        break;
-                    case ETipo.Leche:
-                        sb.AppendLine(((Leche)v).Mostrar());
-                        break;
-                    default:
-                        sb.AppendLine(v.Mostrar());
-                        break;
-                }
+                 switch (tipo)
+                 {
+                     case ETipo.Snacks:
+                         if(v is Snacks)
+                             sb.AppendLine(((Snacks)v).Mostrar());
+                         break;
+                     case ETipo.Dulce:
+                         if(v is Dulce)
+                             sb.AppendLine(((Dulce)v).Mostrar());
+                         break;
+                     case ETipo.Leche:
+                         if(v is Leche)
+                             sb.AppendLine(((Leche)v).Mostrar());
+                         break;
+                     case ETipo.Todos:
+                         sb.AppendLine(v.Mostrar());
+                         break;
+                 }
             }
 
             return sb.ToString();
@@ -90,7 +93,7 @@ namespace Entidades_2017
         {
             foreach (Producto v in c._productos)
             {
-                if (v == p)
+                if (v == p || c._productos.Count() >= c._espacioDisponible)
                     return c;
             }
 

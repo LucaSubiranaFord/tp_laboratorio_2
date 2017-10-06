@@ -13,3 +13,8 @@ C:\Users\PC\Desktop\TP-02\Entidades\bin\Debug\Entidades.pdb
 C:\Users\PC\Desktop\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\PC\Desktop\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\PC\Desktop\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\PC\Desktop\TP_2_LABORATORIO\Entidades\bin\Debug\Entidades.dll
+C:\Users\PC\Desktop\TP_2_LABORATORIO\Entidades\bin\Debug\Entidades.pdb
+C:\Users\PC\Desktop\TP_2_LABORATORIO\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\TP_2_LABORATORIO\Entidades\obj\Debug\Entidades.dll
+C:\Users\PC\Desktop\TP_2_LABORATORIO\Entidades\obj\Debug\Entidades.pdb

@@ -22,3 +22,11 @@ C:\Users\PC\Desktop\TP-02\TP-02\bin\Debug\TP-02.exe
 C:\Users\PC\Desktop\TP-02\TP-02\bin\Debug\TP-02.pdb
 C:\Users\PC\Desktop\TP-02\TP-02\bin\Debug\Entidades.dll
 C:\Users\PC\Desktop\TP-02\TP-02\bin\Debug\Entidades.pdb
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\bin\Debug\TP-02.exe.config
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\obj\Debug\TP-02.exe
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\obj\Debug\TP-02.pdb
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\bin\Debug\TP-02.exe
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\bin\Debug\TP-02.pdb
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\bin\Debug\Entidades.dll
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\bin\Debug\Entidades.pdb
+C:\Users\PC\Desktop\TP_2_LABORATORIO\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache
