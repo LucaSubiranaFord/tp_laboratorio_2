@@ -92,10 +92,12 @@ namespace Clases_Instanciables
             return text.guardar("Jornada.txt", jornada.ToString());
         }
 
-        /*public static string Leer()
+        public static string Leer()
         {
+            string dato = "";
             Texto text = new Texto();
-            //return text.leer("Jornada.txt");
-        }*/
+            text.leer("Jornada.txt",out dato);
+            return dato;
+        }
     }
 }
