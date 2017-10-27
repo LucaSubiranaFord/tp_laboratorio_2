@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Abstractas.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Instanciables.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Abstractas.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Instanciables.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,4 @@
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\obj\Debug\Excepciones.pdb

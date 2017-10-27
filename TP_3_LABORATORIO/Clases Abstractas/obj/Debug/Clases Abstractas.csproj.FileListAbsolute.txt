@@ -1,0 +1,7 @@
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

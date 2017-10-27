@@ -1,0 +1,5 @@
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Enumerados\bin\Debug\Enumerados.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Enumerados\bin\Debug\Enumerados.pdb
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Enumerados\obj\Debug\Enumerados.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Enumerados\obj\Debug\Enumerados.dll
+C:\Users\PC\Desktop\TP_3_LABORATORIO\Enumerados\obj\Debug\Enumerados.pdb
