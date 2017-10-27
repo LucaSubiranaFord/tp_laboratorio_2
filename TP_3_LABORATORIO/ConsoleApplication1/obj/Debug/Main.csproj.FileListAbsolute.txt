@@ -10,3 +10,17 @@ C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.p
 C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\Main.csprojResolveAssemblyReference.cache
 C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\PC\Desktop\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Abstractas.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Instanciables.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Archivos.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Abstractas.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Instanciables.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Archivos.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

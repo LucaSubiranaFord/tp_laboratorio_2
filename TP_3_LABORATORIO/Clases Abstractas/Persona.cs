@@ -91,17 +91,16 @@ namespace Clases_Abstractas
 
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if (dato < 1 || dato > 89999999)
+            if (nacionalidad == ENacionalidad.Argentino && (dato > 1 && dato < 89999999))
             {
-                throw new DniInvalidoException("DNI INVALIDO");
+                return dato;
+            }
+            else if (nacionalidad == ENacionalidad.Extranjero && (dato > 89999999 && dato < 99999999))
+            {
+                return dato;
             }
 
-            if(nacionalidad == ENacionalidad.Extranjero)
-            {
-                throw new NacionalidadInvalidaException("DNI INVALIDO");
-            }
-
-            return dato;
+            throw new DniInvalidoException("DNI INVALIDO");
         }
 
         public string validarNombreApellido(string dato)
@@ -109,13 +108,16 @@ namespace Clases_Abstractas
             int i = 0;
             if (string.IsNullOrEmpty(dato))
             {
-               return null;
+               return "";
             }
                
             for (i = 0; i < dato.Length; i++)
             {
                 if (!char.IsLetter(dato[i]))
-                    return null;
+                { 
+                    return ""; 
+                }
+                    
             }
 
             return dato;

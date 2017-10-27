@@ -1,1 +1,8 @@
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\bin\Debug\Archivos.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\bin\Debug\Archivos.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\obj\Debug\Archivos.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\obj\Debug\Archivos.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Archivos\obj\Debug\Archivos.pdb

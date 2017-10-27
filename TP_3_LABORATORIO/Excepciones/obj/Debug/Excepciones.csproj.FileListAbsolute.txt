@@ -2,3 +2,7 @@ C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\bin\Debug\Excepciones.dll
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\bin\Debug\Excepciones.pdb
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\obj\Debug\Excepciones.dll
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Excepciones\obj\Debug\Excepciones.pdb

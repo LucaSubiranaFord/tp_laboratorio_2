@@ -7,3 +7,14 @@ C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Excepciones.
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Instanciables\obj\Debug\Clases Instanciables.csprojResolveAssemblyReference.cache
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Instanciables\obj\Debug\Clases Instanciables.dll
 C:\Users\PC\Desktop\TP_3_LABORATORIO\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Clases Instanciables.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Archivos.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Clases Abstractas.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Archivos.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Clases Abstractas.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\obj\Debug\Clases Instanciables.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\obj\Debug\Clases Instanciables.dll
+C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Instanciables\obj\Debug\Clases Instanciables.pdb
