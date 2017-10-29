@@ -13,7 +13,7 @@ namespace Clases_Instanciables
         private static Random _random;
          
         public Profesor()
-        {   
+        {
         }
 
         static Profesor()
@@ -30,15 +30,15 @@ namespace Clases_Instanciables
 
         protected override string MostrarDatos()
         {
-            string valorAcumulado = this.MostrarDatos();
-            valorAcumulado = this.ParticiparEnClase();
+            string valorAcumulado = base.MostrarDatos();
+            valorAcumulado += this.ParticiparEnClase();
 
             return valorAcumulado;
         }
 
         protected override string ParticiparEnClase()
         {
-            string valorAcumulado = "CLASES DEL DIA: \n";
+            string valorAcumulado = "\nCLASES DEL DIA: \n";
 
             foreach (Universidad.EClases i in _clasesDelDia)
             {
@@ -59,7 +59,7 @@ namespace Clases_Instanciables
 
             while(i<2)
             {
-                int nr = _random.Next(0, 4);
+                int nr = _random.Next(0, 3);
                 switch (nr)
                 {
                     case 0:
@@ -77,6 +77,7 @@ namespace Clases_Instanciables
                     default:
                         break;
                 }
+                i++;
             }
             
         }

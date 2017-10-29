@@ -40,27 +40,29 @@ namespace Clases_Instanciables
         public Jornada(Universidad.EClases clase, Profesor instructor)
             :this()
         {
-            this.Clase = clase;
-            this.Instructor = instructor;
+            this._clase = clase;
+            this._instructor = instructor;
 
         }
 
         public override string ToString()
         {
-            string valorAcumulado = "Alumnos: \n";
+            string valorAcumulado = "CLASE DE "+this._clase.ToString()+" POR "+this._instructor.ToString();
 
+            valorAcumulado += "\nAlumnos: \n";
             foreach (Alumno i in this.Alumnos)
             {
                 valorAcumulado += i.ToString()+"\n";
             }
+            valorAcumulado += "\n----------------------------------------\n";
 
-            valorAcumulado += "Profesor: " + this.Instructor+"\nClase: "+this.Clase;
+            
             return valorAcumulado;
         }
 
         public static bool operator ==(Jornada jornada, Alumno alu)
         {
-            foreach(Alumno i in jornada.Alumnos)
+            foreach(Alumno i in jornada._alumnos)
             {
                 if (i == alu)
                 {
@@ -77,11 +79,11 @@ namespace Clases_Instanciables
 
         public static Jornada operator +(Jornada j, Alumno a)
         {
-            if(j == a)
+            if( !(j == a) )
             {
-                return j;
+                j.Alumnos.Add(a);
             }
-            j.Alumnos.Add(a);
+            
             return j;
         }
 

@@ -24,3 +24,17 @@ C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplicat
 C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Archivos.pdb
 C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Abstractas.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Instanciables.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Archivos.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Abstractas.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Clases Instanciables.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Excepciones.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\bin\Debug\Archivos.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\ConsoleApplication1\obj\Debug\Main.csprojResolveAssemblyReference.cache

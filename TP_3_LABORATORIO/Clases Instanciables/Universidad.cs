@@ -16,9 +16,9 @@ namespace Clases_Instanciables
             Programacion = 0, Laboratorio, Legislacion, SPD
         }
 
-        private List<Alumno> alumnos = new List<Alumno>();
-        private List<Jornada> jornada = new List<Jornada>();
-        private List<Profesor> profesores = new List<Profesor>();
+        private List<Alumno> alumnos;
+        private List<Jornada> jornada;
+        private List<Profesor> profesores; 
 
         public List<Alumno> Alumnos
         {
@@ -47,11 +47,20 @@ namespace Clases_Instanciables
 
         public Universidad()
         {
-        }
+            this.alumnos = new List<Alumno>();
+            this.jornada = new List<Jornada>();
+            this.profesores = new List<Profesor>();
+    }
 
         private static string MostrarDatos(Universidad gim)
         {
-            return gim.Alumnos.ToString() + gim.Jornadas.ToString() + gim.Instructores.ToString();
+            string valorAcumulado = "JORNADA:\n";
+            foreach (Jornada i in gim.Jornadas)
+            {
+                valorAcumulado += i.ToString();
+            }
+
+            return valorAcumulado;
         }
 
         public override string ToString()
@@ -99,7 +108,12 @@ namespace Clases_Instanciables
             {
                 g.alumnos.Add(a);
             }
+            else
+            {
+                throw new AlumnoRepetidoException();
+            }
             return g;
+            
         }
 
         public static Universidad operator +(Universidad g, Profesor i)
@@ -114,7 +128,15 @@ namespace Clases_Instanciables
         public static Universidad operator +(Universidad g, EClases clase)
         {
             Jornada j = new Jornada(clase, g == clase);
+            foreach (Alumno i in g.Alumnos)
+            {
+                if (i == clase)
+                {
+                    j.Alumnos.Add(i);
+                }
+            }
             g.Jornadas.Add(j);
+
             return g;
         }
 

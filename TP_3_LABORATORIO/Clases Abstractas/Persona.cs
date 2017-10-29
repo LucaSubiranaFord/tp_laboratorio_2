@@ -26,10 +26,7 @@ namespace Clases_Abstractas
             get { return this._apellido; }
             set
             {
-                if (validarNombreApellido(value) != null)
-                {
-                    this._apellido = value;
-                }
+                this._apellido = this.validarNombreApellido(value);
             }
         }
 
@@ -53,10 +50,7 @@ namespace Clases_Abstractas
             get { return this._nombre; }
             set
             {
-                if(validarNombreApellido(value) != null)
-                {
-                    this._nombre = value;
-                }
+                this._nombre = this.validarNombreApellido(value);
             }
         }
 
@@ -91,16 +85,32 @@ namespace Clases_Abstractas
 
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
-            if (nacionalidad == ENacionalidad.Argentino && (dato > 1 && dato < 89999999))
+            switch(nacionalidad)
             {
-                return dato;
+                case ENacionalidad.Argentino:
+                    if(dato > 1 && dato < 89999999)
+                    {
+                        return dato;
+                    }
+                    break;
+                case ENacionalidad.Extranjero:
+                    if(dato > 89999999 && dato < 99999999)
+                    {
+                        return dato;
+                    }
+                    break;
             }
-            else if (nacionalidad == ENacionalidad.Extranjero && (dato > 89999999 && dato < 99999999))
-            {
-                return dato;
-            }
+            throw new NacionalidadInvalidaException("La nacionalidad no coincide con el numero de DNI");
+        }
 
-            throw new DniInvalidoException("DNI INVALIDO");
+        private int ValidarDni(ENacionalidad nacionalidad, string dato)
+        {
+            int dni;
+            if(int.TryParse(dato, out dni) == false)
+                {
+                throw new DniInvalidoException("DNI INVALIDO");
+                }
+            return this.ValidarDni(nacionalidad, dni);
         }
 
         public string validarNombreApellido(string dato)
@@ -125,7 +135,7 @@ namespace Clases_Abstractas
 
         public override string ToString()
         {
-            return "Nombre: "+this._nombre+"\nApellido: "+this._apellido+"\nDNI: "+this._dni+"\nNacionalidad: "+this._nacionalidad;
+            return "NOMBRE COMPLETO: "+this._nombre + ", " + this._apellido + "\nNacionalidad: " + this._nacionalidad+"\n";
         }
     }
 }

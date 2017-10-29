@@ -11,7 +11,6 @@ namespace Excepciones
         public AlumnoRepetidoException()
             :base("Alumno repetido")
         {
-
         }
     }
 }

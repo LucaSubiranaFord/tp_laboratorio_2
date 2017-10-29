@@ -14,3 +14,12 @@ C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstract
 C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases_Abstractas.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.dll
 C:\Users\alumno\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Clases Abstractas.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Archivos.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Archivos.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases_Abstractas.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.dll
+C:\Users\PC\Desktop\tp_laboratorio_2-master\TP_3_LABORATORIO\Clases Abstractas\obj\Debug\Clases Abstractas.pdb

@@ -19,6 +19,7 @@ namespace Clases_Instanciables
         private EEstadoCuenta _estadoCuenta;
 
         public Alumno()
+            :base()
         {
 
         }
@@ -38,13 +39,13 @@ namespace Clases_Instanciables
         protected override string MostrarDatos()
         {
             string valorAcumulado = base.MostrarDatos();
-            valorAcumulado += "\nEstado Cuenta: " + this._estadoCuenta + "\n" + this.ParticiparEnClase();
+            valorAcumulado += "\n\nEstado Cuenta: " + this._estadoCuenta.ToString() + this.ParticiparEnClase();
             return valorAcumulado;
         }
 
         protected override string ParticiparEnClase()
         {
-            return "TOMA CLASES DE: "+this._claseQueToma;
+            return "\nTOMA CLASES DE: "+this._claseQueToma;
         }
 
         public override string ToString()
@@ -58,6 +59,7 @@ namespace Clases_Instanciables
             {
                 return true;
             }
+
             return false;
         }
 
@@ -68,6 +70,8 @@ namespace Clases_Instanciables
                 return false;
             }
             return true;
+            //return !(a == clase);
+
         }
 
 

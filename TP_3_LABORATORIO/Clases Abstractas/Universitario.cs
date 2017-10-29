@@ -20,7 +20,7 @@ namespace Clases_Abstractas
 
         protected virtual string MostrarDatos()
         {
-            string valorAcumulado = this.ToString();
+            string valorAcumulado = base.ToString();
             valorAcumulado += "\nLegajo: " + this._legajo;
             return valorAcumulado;
         }
@@ -29,12 +29,9 @@ namespace Clases_Abstractas
 
         public static bool operator ==(Universitario u1, Universitario u2)
         {
-            if(u1 is Universitario && u2 is Universitario)
+            if( (u1 is Universitario && u2 is Universitario) && (u1.DNI == u2.DNI || u1._legajo == u2._legajo) )
             {
-                if (u1.DNI == u2.DNI || u1._legajo == u2._legajo)
-                {
-                    return true;
-                }
+                return true;
             }
             return false;
         }
