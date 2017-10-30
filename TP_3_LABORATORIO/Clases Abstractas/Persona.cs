@@ -15,10 +15,12 @@ namespace Clases_Abstractas
             Argentino, Extranjero
         }
 
+        #region ATRIBUTOS
         private string _apellido;
         private int _dni;
         private ENacionalidad _nacionalidad;
         private string _nombre;
+        #endregion
 
         #region PROPIEDADES
         public string Apellido
@@ -61,6 +63,7 @@ namespace Clases_Abstractas
 
         #endregion
 
+        #region CONSTRUCTORES
         public Persona()
         { }
 
@@ -82,7 +85,17 @@ namespace Clases_Abstractas
         {
             this.StringToDNI = dni;
         }
+        #endregion
 
+        #region METODOS
+
+
+        /// <summary>
+        /// Verifica si el DNI coincide con la nacionalidad
+        /// </summary>
+        /// <param name="nacionalidad">Enum.ENacionalidad nacionalidad</param>
+        /// <param name="dato">int dato</param>
+        /// <returns>int dni, de lo contrario arroja una excepcion</returns>
         private int ValidarDni(ENacionalidad nacionalidad, int dato)
         {
             switch(nacionalidad)
@@ -103,6 +116,13 @@ namespace Clases_Abstractas
             throw new NacionalidadInvalidaException("La nacionalidad no coincide con el numero de DNI");
         }
 
+
+        /// <summary>
+        /// Verifica si el DNI coincide con la nacionalidad
+        /// </summary>
+        /// <param name="nacionalidad">Enum.ENacionalidad nacionalidad</param>
+        /// <param name="dato">string dato</param>
+        /// <returns>Excepcion si no logra parsearse el dato, de lo contrario retorna el metodo ValidarDni()</returns>
         private int ValidarDni(ENacionalidad nacionalidad, string dato)
         {
             int dni;
@@ -113,6 +133,13 @@ namespace Clases_Abstractas
             return this.ValidarDni(nacionalidad, dni);
         }
 
+
+
+        /// <summary>
+        /// Verifica que el apellido tenga los caracteres correctos
+        /// </summary>
+        /// <param name="dato">string dato</param>
+        /// <returns>string apellido, si no tiene los caracteres correctos devuelve un string vacio</returns>
         public string validarNombreApellido(string dato)
         {
             int i = 0;
@@ -133,9 +160,15 @@ namespace Clases_Abstractas
             return dato;
         }
 
+
+        /// <summary>
+        /// Hace publico los datos de la persona
+        /// </summary>
+        /// <returns>string con los datos de la persona</returns>
         public override string ToString()
         {
             return "NOMBRE COMPLETO: "+this._nombre + ", " + this._apellido + "\nNacionalidad: " + this._nacionalidad+"\n";
         }
+        #endregion
     }
 }

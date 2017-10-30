@@ -15,15 +15,19 @@ namespace Clases_Instanciables
             AlDia, Deudor, Becado
         }
 
+        #region ATRIBUTOS
         private Universidad.EClases _claseQueToma;
         private EEstadoCuenta _estadoCuenta;
+        #endregion
 
+        #region CONSTRUCTORES
         public Alumno()
             :base()
         {
 
         }
 
+         
         public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
             :base(id,nombre,apellido,dni,nacionalidad)
         {
@@ -36,6 +40,15 @@ namespace Clases_Instanciables
             this._estadoCuenta = estadoCuenta;
         }
 
+        #endregion
+
+        #region METODOS
+
+
+        /// <summary>
+        /// retorna una cadena con los datos del alumno
+        /// </summary>
+        /// <returns>string datos del alumno</returns>
         protected override string MostrarDatos()
         {
             string valorAcumulado = base.MostrarDatos();
@@ -43,16 +56,33 @@ namespace Clases_Instanciables
             return valorAcumulado;
         }
 
+
+        /// <summary>
+        /// muestra las clases que toma el alumno
+        /// </summary>
+        /// <returns>string clases que toma</returns>
         protected override string ParticiparEnClase()
         {
             return "\nTOMA CLASES DE: "+this._claseQueToma;
         }
 
+
+        /// <summary>
+        /// Muestra los datos del alumno publicamente
+        /// </summary>
+        /// <returns>retorna el metodo MostrarDatos()</returns>
         public override string ToString()
         {
             return this.MostrarDatos();
         }
 
+
+        /// <summary>
+        /// Verifica si dos alumnos son iguales segun la clase que toma y si el estado de cuenta es no deudor
+        /// </summary>
+        /// <param name="a">Alumno a</param>
+        /// <param name="clase">Enum.EClases clase</param>
+        /// <returns></returns>
         public static bool operator ==(Alumno a, Universidad.EClases clase)
         {
             if(a._claseQueToma == clase && a._estadoCuenta != EEstadoCuenta.Deudor)
@@ -63,6 +93,13 @@ namespace Clases_Instanciables
             return false;
         }
 
+
+        /// <summary>
+        /// Dos alumnos no son iguales si no toman la misma clase
+        /// </summary>
+        /// <param name="a">Alumno a</param>
+        /// <param name="clase">Enum.EClases clase</param>
+        /// <returns></returns>
         public static bool operator !=(Alumno a, Universidad.EClases clase)
         {
             if (a._claseQueToma == clase)
@@ -73,6 +110,8 @@ namespace Clases_Instanciables
             //return !(a == clase);
 
         }
+
+        #endregion
 
 
     }
